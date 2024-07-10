@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "jsx": "react-jsx",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmit": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "baseUrl": "src", // This must be specified if "paths" is.
+    "paths": {
+      //  "@component/*": ["Components/views/*"],
+      //  "@common/*": ["src/Components/Common/*"],
+      //  "@assets/*": ["Components/assets/*"],
+      //  "@shared/*": ["app/_shared/*"],
+      //  "@helpers/*": ["helpers/*"]
+    },
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    //   "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "declarations.d.ts",
+    "src/Components/Auth/Signup.jsx",
+    "src/main.jsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
